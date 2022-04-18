@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💉 Aplicação para Portfolio.
 
-## Getting Started
+Esta app, contém dados abertos do site https://coronavirus.saude.mg.gov.br/dadosabertos.
+Informo que mesmo estão sendo manipulados para demonstrar apenas conhecimento no desenvolvimento de aplicação web.
+Para Informações sobre os dados favor acessar o site do estado, citado acima.
 
-First, run the development server:
+### Informações do site do Estado da data de 18/04/2022
 
-```bash
-npm run dev
-# or
-yarn dev
+# DADOS ABERTOS
+
+A Secretaria de Estado de Saúde disponibiliza, além das informações presentes nos painéis interativos, arquivos em formato XLSX e CSV para download, dando transparência à situação enfrentada nesta pandemia. Desde o dia 02/06/2021, estão sendo disponibilizados seis arquivos relacionados a casos de COVID-19 em formato CSV:
+
+## Distribuição de Vacinas
+
+Informações extraídas do Sistema SIES-MG com as doses enviadas pelo Ministério da Saúde, encaminhadas as Unidades Regionais de Saúde e das Unidades Regionais de Saúde aos municípios mineiros. Sujeito a alterações. Atualizado diariamente em formato XSLX no site e semanalmente em formato aberto não proprietário nesta página.
+
+https://coronavirus.saude.mg.gov.br/dadosabertos
+
+### Dados do dia 18/04/2021
+
+## Tela alexandre
+
+![vaccine](/img/vaccine.jpg)
+
+## Executando a aplicação
+
+Aplicação criada com o [Next.js](https://nextjs.org/), sendo assim para executar, basta clonar o projeto.
+
+```shell
+git clone https://github.com/alexandreceti/vaccine.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse a pasta do projeto e instalar dependencias do projeto:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```shell
+cd vaccine
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Inicie a aplicação:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```shell
+npm run dev
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Abrir o navegador no endereço [http://localhost:3000](http://localhost:3000).
