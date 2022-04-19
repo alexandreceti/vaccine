@@ -6,7 +6,7 @@ function Sobre(props) {
       <section className="hero is-info">
         <div className="hero-body">
           <p className="title">
-            <i className="fa-solid fa-syringe"></i> Vanicação contra Covid no estado de Minas Gerais
+            <i className="fa-solid fa-syringe"></i> Distribuição da Vanicação contra Covid no estado de Minas Gerais
           </p>
           <p className="subtitle">
             Projeto desenvolvido em React JS
