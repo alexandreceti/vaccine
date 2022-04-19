@@ -66,9 +66,9 @@ export default function HomePage() {
         <div className="field">
           <label className="label">Pesquisa</label>
           <div className="control">
-            <input className="input" type="text" placeholder="Filtar Cidades" value={filter} onChange={handleFilter} />
+            <input className="input" type="text" placeholder="Filtar cidades" value={filter} onChange={handleFilter} />
           </div>
-          <p className="help">Use o filtra para pesquisar cidades.</p>
+          <p className="help">Use o filtro para pesquisar cidades</p>
           <div className="columns row">
             <div className="column">
                 <button className="button is-primary" onClick={handleLoadCitys}>Carregar Lista</button>
